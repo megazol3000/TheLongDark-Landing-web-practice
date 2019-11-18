@@ -1,0 +1,19 @@
+.section2 {
+	height: 800px;
+	background-image:url('../img/section2/tld-anim.gif');
+	background-size: cover;
+    background-position: center;
+}
+.section2_title {
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section2_title h2{
+	font-family: sans-serif;
+	background-color: #7ad1fb;
+	padding: 10px 15px;
+	color: #1a3d6d;
+	border: 4px solid #347cd4;
+}

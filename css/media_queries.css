@@ -1,0 +1,25 @@
+@media screen and (max-width: 991px) {
+		.images_item img {
+		width: 200px;
+		margin-left: 70px;
+
+	}
+}
+
+@media screen and (max-width: 767px) {
+		.images_item img {
+		width: 200px;
+		margin-left: 30px;
+
+	}
+}
+@media screen and (max-width: 575px) {
+		.images_item img {
+		width: 200px;
+		margin-left: 180px;
+
+	}
+		.snowContainer {
+			display: none;
+		}
+}

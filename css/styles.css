@@ -1,0 +1,6 @@
+/*стили секций*/
+@import url(header.css);
+@import url(section1.css);
+@import url(section2.css);
+/*адаптивность (должен быть в конце структуры css)*/
+@import url('media_queries.css');

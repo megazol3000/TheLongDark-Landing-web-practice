@@ -1,0 +1,50 @@
+.section1 {
+}
+.section1_title {
+	margin:50px;
+	font-family: sans-serif;
+}
+.images {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+.images_item img {
+	width: 200px;
+	margin-left: 35px;
+
+}
+
+.images_item p {
+	font-family: sans-serif;
+	line-height: 26px;
+	position: relative;
+	text-align: center;
+	transition: 0.4s all ease;
+	opacity: 0;
+}
+#box1:hover > #bla1 {
+	opacity: 1;
+	transform: translateY(20px);
+}
+#box2:hover > #bla2 {
+	opacity: 1;
+	transform: translateY(20px);
+}
+#box3:hover > #bla3 {
+	opacity: 1;
+	transform: translateY(20px);
+}
+#box4:hover > #bla4 {
+	opacity: 1;
+	transform: translateY(20px);
+}
+
+.pic1:focus {
+	opacity: 0;
+	transition: opacity 5s;
+}
